@@ -36,7 +36,7 @@ function minify($data, $st = true)
 }
 
 use OceanWT\Hook;
-use OceanWT\Translation\Lang;
+use OceanWT\Support\Translation\Lang;
 
 if(!function_exists("view")){
  function view($name, $data = array()){
