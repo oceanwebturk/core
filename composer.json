@@ -1,0 +1,31 @@
+{
+  "name": "oceanwebturk/core",
+  "description": "The OceanWebTurk Core Package",
+  "type": "library",
+  "keywords":["oceanwebturk","oceanwebturk","core"],
+  "license": "MIT",
+  "homepage":"https://github.com/oceanwebturk/core",
+  "support":{
+    "source": "https://github.com/oceanwebturk/core",
+    "wiki": "https://github.com/oceanwebturk/core/wiki"
+  },
+  "config":{
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "classmap-authoritative": true
+  },
+  "require":{
+    "php": ">=7.4"
+  },
+  "autoload": {
+   "psr-4":{
+     "OceanWT\\":""
+   },
+   "files":[
+     "framework.php"
+   ]
+  },
+  "minimum-stability":"dev",
+  "prefer-stable":true
+}
