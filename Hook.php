@@ -3,7 +3,8 @@
 namespace OceanWT;
 
 class Hook
-{  use Traits\Macro;
+{
+    use Support\Traits\Macro;
     /**
      * @var array
      */

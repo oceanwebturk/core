@@ -4,7 +4,7 @@ namespace OceanWT;
 
 class Container
 {
- use Traits\Macro; 
+ use Support\Traits\Macro;
  /**
   * @var int|null
   */

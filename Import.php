@@ -4,7 +4,7 @@ namespace OceanWT;
 
 class Import
 {
-  use Traits\Macro;
+ use Support\Traits\Macro;
  /**
   * @param  string $file
   * @param  array  $data

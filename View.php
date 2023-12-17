@@ -4,7 +4,7 @@ namespace OceanWT;
 
 class View
 { 
-    use Traits\Macro;
+    use Support\Traits\Macro;
     /**
      * @var array
      */
