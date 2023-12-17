@@ -215,7 +215,7 @@ class OceanWT extends Container
      */
     public static function setLocale(string $locale)
     {
-      Translation\Lang::$appLang=$locale;
+       Support\Translation\Lang::$appLang=$locale;
     }
 
     /**
@@ -223,7 +223,7 @@ class OceanWT extends Container
      */
     public static function setSysLocale(string $locale)
     {
-      Translation\Lang::$sysLang=$locale;
+      Support\Translation\Lang::$sysLang=$locale;
     }
 
 }
