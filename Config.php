@@ -4,7 +4,7 @@ namespace OceanWT;
 
 class Config
 {
-     use Traits\Macro; 
+     use \OceanWT\Support\Traits\Macro; 
 
     /**
      * @var string
